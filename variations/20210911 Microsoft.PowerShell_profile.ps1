@@ -1,5 +1,20 @@
 ﻿$ErrorActionPreference = 'SilentlyContinue'
 
+<#old prompt
+    function prompt {
+        $location = Get-Location
+        Write-Host -NoNewline "$(HOSTNAME.EXE) "                  -ForegroundColor Green
+        Write-Host -NoNewline '~'                                 -ForegroundColor Yellow
+        Write-Host -NoNewline $(Get-Location).Path.Split('\')[-1] -ForegroundColor Cyan
+        Write-Host -NoNewline ">" -ForegroundColor Green
+
+        $Adminp = [bool](([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match "S-1-5-32-544")
+        $host.UI.RawUI.WindowTitle = 'Admin is ' + "$Adminp" + ' - PSVersion ' + $host.version + " - $location"
+
+        Return " "
+    }
+#>
+
 function prompt {
     $location = Get-Location
     Write-Host -NoNewline "$(HOSTNAME.EXE) "                  -ForegroundColor Green
@@ -16,6 +31,13 @@ function prompt {
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<#Default
+Set-PSReadLineOption -BellStyle Audible
+Set-PSReadLineKeyHandler -Chord Tab -Function TabCompleteNext
+Set-PSReadLineKeyHandler -Chord Ctrl+Space -Function MenuComplete
+Set-PSReadLineOption -editmode Windows
+#>
+#Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
 Set-PSReadLineOption -BellStyle None -EditMode Windows
 Set-PSReadLineKeyHandler -Chord Tab -Function MenuComplete
 
@@ -164,8 +186,10 @@ if ($t1 -or $t2 -eq $true) {
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 Import-Module AdminToolbox
 Import-Module BetterCredentials
+Import-Module MyFunctions
 
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
