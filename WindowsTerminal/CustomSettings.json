@@ -71,7 +71,8 @@
                 "colorScheme": "Vintage",
                 "commandline": "C:\\ProgramData\\PS7x64\\PS7-x64\\pwsh.exe -nologo",
                 "font": {
-                    "face": "Consolas"
+                    "face": "MesloLGM Nerd Font Mono",
+                    "size": 10
                 },
                 "guid": "{8fe52c09-b59a-4f9e-9102-d4fee9797ab4}",
                 "hidden": false,
