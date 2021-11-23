@@ -22,7 +22,7 @@
         {
             "command": {
                 "action": "splitPane",
-                "split": "right"
+                "split": "vertical"
             },
             "keys": "shift+right"
         },
@@ -33,7 +33,7 @@
         {
             "command": {
                 "action": "splitPane",
-                "split": "down"
+                "split": "horizontal"
             },
             "keys": "shift+down"
         },
