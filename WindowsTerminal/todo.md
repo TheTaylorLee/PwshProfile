@@ -1,5 +1,0 @@
-- [] Modify admintoolbox to remove conemu and cmder related functions
-- [] Add a function to launch terminal as admin during startup cmd /c wt
-- [] Add a function to install windows terminal preview from microsoft store
-- [] remove psportable functions
-- [] add terminal shortcuts to get-info
