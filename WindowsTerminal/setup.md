@@ -34,5 +34,9 @@ function prompt {
 }
 ```
 
+# Add Custom Theme
+- Use get-poshthemes to locate the themes directory.
+- Copy the custom themes into that directory
+
 # Troubleshooting
 If having issues importing terminal-icons, do a force reinstall.
