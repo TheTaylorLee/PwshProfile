@@ -54,7 +54,6 @@
     "disableAnimations": true,
     "profiles": {
         "defaults": {
-            "acrylicOpacity": 0.83999999999999997,
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Vintage",
@@ -66,7 +65,6 @@
         },
         "list": [
             {
-                "acrylicOpacity": 0.69999999999999996,
                 "backgroundImageOpacity": 1.0,
                 "colorScheme": "Vintage",
                 "commandline": "C:\\ProgramData\\PS7x64\\PS7-x64\\pwsh.exe -nologo",
@@ -85,7 +83,6 @@
                 "useAcrylic": false
             },
             {
-                "acrylicOpacity": 0.69999999999999996,
                 "backgroundImageOpacity": 1.0,
                 "colorScheme": "Vintage",
                 "commandline": "C:\\ProgramData\\PS7x64Light\\PS7-x64\\pwsh.exe -nologo",
