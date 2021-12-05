@@ -26,6 +26,7 @@ function reset-colors {
 
 function prompt {
     $(
+        #Force Reinstalls Terminal-Icons should it fail to import with errors
         if ((Get-Module oh-my-posh) -and (Get-Module terminal-icons) -and (Get-Module posh-git)) {
             Set-PoshPrompt blue-owl
         }

@@ -33,3 +33,6 @@ function prompt {
     )
 }
 ```
+
+# Troubleshooting
+If having issues importing terminal-icons, do a force reinstall.
