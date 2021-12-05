@@ -52,6 +52,8 @@
     "defaultProfile": "{8fe52c09-b59a-4f9e-9102-d4fee9797ab4}",
     "launchMode": "maximized",
     "disableAnimations": true,
+    "focusFollowMouse": true,
+    "experimental.rendering.forceFullRepaint": true,
     "profiles": {
         "defaults": {
             "bellStyle": "taskbar",
