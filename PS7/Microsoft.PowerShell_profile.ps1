@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'SilentlyContinue'
 
-. $PSScriptRoot\profile_snippets\resetcolors.ps1
+#. $PSScriptRoot\profile_snippets\resetcolors.ps1
 . $PSScriptRoot\profile_snippets\prompt.ps1
 . $PSScriptRoot\profile_snippets\psreadline.ps1
 . $PSScriptRoot\profile_snippets\windowsize.ps1
