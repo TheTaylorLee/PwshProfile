@@ -8,7 +8,6 @@
 - If using Oh-My-Posh be sure to include psportable profiles or know how to set your own prompt.
 
 # install modules once
-- install-module terminal-icons
 - install-module posh-git
 - install-module oh-my-posh
 
@@ -17,7 +16,7 @@
 function prompt {
     $(
         if ((Get-Module oh-my-posh) -and (Get-Module terminal-icons) -and (Get-Module posh-git)) {
-            Set-PoshPrompt blue-owl #tonybaloney, craver, atomic
+            Set-PoshPrompt grandpa-style
         }
         else {
             $location = Get-Location
