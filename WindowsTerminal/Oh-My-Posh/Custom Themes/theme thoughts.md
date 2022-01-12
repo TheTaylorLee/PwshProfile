@@ -20,5 +20,13 @@
 - insert home icon if in user profile directories
 - decide on info shown for git sections
 pill shape in single color with straight dividers no spacing. Admin indication different color
-admin -> Shell/OS -> short path -> git branch -> time to run		user -> Hostname -> date -> time
-Green Caret
+-enable hyperlink on path
+
+segment left -- admin -> Shell/OS -> short path -> git branch -> time to run -> exit error
+segment right -- user -> Hostname -> date -> time
+new line left -- Green Caret
+
+
+# Theme test directories
+C:\ProgramData\PS7x64\PS7-x64\Modules\oh-my-posh\themes
+C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\5.7.5\themes
