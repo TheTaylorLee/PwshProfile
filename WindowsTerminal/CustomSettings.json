@@ -103,6 +103,27 @@
                 "closeOnExit": "always",
                 "opacity": 90,
                 "useAcrylic": false
+            },
+            {
+                "name": "TAL-PI",
+                "icon": "G:\\Github\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
+                "commandline": "ssh pi@192.168.2.20"
+            },
+            {
+                "backgroundImage": "G:\\Github\\PwshProfile\\WindowsTerminal\\Terminal Wallpapers\\Pi.jpg",
+                "backgroundImageAlignment": "center",
+                "backgroundImageOpacity": 0.37,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": "Campbell",
+                "commandline": "ssh pi@192.168.2.20",
+                "experimental.retroTerminalEffect": false,
+                "font": {
+                    "face": "MesloLGM Nerd Font Mono"
+                },
+                "guid": "{741af258-f26a-53f6-9fa4-4f58d882c2ef}",
+                "icon": "G:\\Github\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
+                "intenseTextStyle": "bright",
+                "name": "TAL-PI"
             }
         ]
     }
