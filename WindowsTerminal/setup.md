@@ -1,13 +1,10 @@
-[themes](https://ohmyposh.dev/docs/themes)
-[Fonts](https://www.nerdfonts.com/)
-
 # Terminal Setup
 - Install Terminal
-- Install nerd font of choice
+- Install [Nerd Font](https://www.nerdfonts.com/) of choice
 - Customize Terminal settings to desire and select nerd font of choice in the terminal
 - If using Oh-My-Posh be sure to include psportable profiles or know how to set your own prompt.
 
-# install modules once
+# Install modules once
 - install-module posh-git
 - install-module oh-my-posh
 
@@ -35,7 +32,5 @@ function prompt {
 
 # Add Custom Theme
 - Use get-poshthemes to locate the themes directory.
-- Copy the custom themes into that directory
-
-# Troubleshooting
-If having issues importing terminal-icons, do a force reinstall.
+- Copy the custom themes into that directory. (No longer necessary. Themese are official Oh-My-Posh themes now)
+- Pick a different [Theme](https://ohmyposh.dev/docs/themes) if desired and update used prompt
