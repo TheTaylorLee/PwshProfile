@@ -3,17 +3,17 @@ Set-PSReadLineKeyHandler -Chord Tab -Function MenuComplete
 
 #Configure PSReadline Intellisense
 $query = Get-Module PSReadLine
-if ($query.Version -le "2.2") {
-    Install-Module psreadline -AllowPrerelease -AllowClobber -Force
+if ($query.Version -le "2.2.2") {
+    Install-Module psreadline -AllowClobber -Force
 }
 
 Function Set-PSReadlineIntellisenseOptions {
 
     #Set viewStyle based on powershell version requirements
-    if ($psversiontable.psversion.major -ge 7 ) {
+    try {
         Set-PSReadLineOption -PredictionViewStyle ListView
     }
-    else {
+    catch {
         Set-PSReadLineOption -PredictionViewStyle InlineView
     }
     #Set prediction source for intellisense
