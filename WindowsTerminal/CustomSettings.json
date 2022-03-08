@@ -53,12 +53,12 @@
     "launchMode": "maximized",
     "disableAnimations": true,
     "focusFollowMouse": true,
-    "experimental.rendering.forceFullRepaint": true,
     "profiles": {
         "defaults": {
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Vintage",
+            "elevate": true,
             "font": {
                 "size": 11
             },
@@ -71,6 +71,7 @@
                 "backgroundImageOpacity": 1.0,
                 "colorScheme": "Vintage",
                 "commandline": "C:\\ProgramData\\PS7x64\\PS7-x64\\pwsh.exe -nologo",
+                "elevate": true,
                 "font": {
                     "face": "MesloLGM Nerd Font Mono",
                     "size": 10
@@ -90,6 +91,7 @@
                 "backgroundImageOpacity": 1.0,
                 "colorScheme": "Vintage",
                 "commandline": "C:\\ProgramData\\PS7x64Light\\PS7-x64\\pwsh.exe -nologo",
+                "elevate": true,
                 "font": {
                     "face": "Consolas"
                 },
@@ -105,26 +107,22 @@
                 "useAcrylic": false
             },
             {
-                "name": "TAL-PI",
-                "icon": "G:\\Github\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
-                "commandline": "ssh pi@192.168.2.20"
-            },
-            {
                 "backgroundImage": "G:\\Github\\PwshProfile\\WindowsTerminal\\Terminal Wallpapers\\Pi.jpg",
                 "backgroundImageAlignment": "center",
                 "backgroundImageOpacity": 0.37,
                 "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Campbell",
-                "commandline": "ssh user@192.168.1.1",
+                "commandline": "ssh pi@192.168.2.1",
                 "experimental.retroTerminalEffect": false,
-                "font": {
+                "font": 
+                {
                     "face": "MesloLGM Nerd Font Mono"
                 },
                 "guid": "{741af258-f26a-53f6-9fa4-4f58d882c2ef}",
                 "icon": "G:\\Github\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
                 "intenseTextStyle": "bright",
-                "name": "Profile Name"
-            }
+                "name": "Pi-Hole"
+            },
         ]
     }
 }
