@@ -114,15 +114,14 @@
                 "colorScheme": "Campbell",
                 "commandline": "ssh pi@192.168.2.1",
                 "experimental.retroTerminalEffect": false,
-                "font": 
-                {
+                "font": {
                     "face": "MesloLGM Nerd Font Mono"
                 },
                 "guid": "{741af258-f26a-53f6-9fa4-4f58d882c2ef}",
                 "icon": "G:\\Github\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
                 "intenseTextStyle": "bright",
                 "name": "Pi-Hole"
-            },
+            }
         ]
     }
 }
