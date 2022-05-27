@@ -32,5 +32,5 @@ function prompt {
 
 # Add Custom Theme
 - Use get-poshthemes to locate the themes directory.
-- Copy the custom themes into that directory. (No longer necessary. Themese are official Oh-My-Posh themes now)
+- Copy the custom themes into that directory. (No longer necessary. Themes are official Oh-My-Posh themes now)
 - Pick a different [Theme](https://ohmyposh.dev/docs/themes) if desired and update used prompt
