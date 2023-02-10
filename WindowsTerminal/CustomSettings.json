@@ -107,20 +107,17 @@
                 "useAcrylic": false
             },
             {
-                "backgroundImage": "G:\\Github01\\PwshProfile\\WindowsTerminal\\Terminal Wallpapers\\Pi.jpg",
-                "backgroundImageAlignment": "center",
-                "backgroundImageOpacity": 0.37,
-                "backgroundImageStretchMode": "uniformToFill",
-                "colorScheme": "Campbell",
+                "backgroundImageOpacity": 1.0,
+                "colorScheme": "Vintage",
                 "commandline": "ssh pi@192.168.2.1",
                 "experimental.retroTerminalEffect": false,
                 "font": {
                     "face": "MesloLGM Nerd Font Mono"
                 },
                 "guid": "{741af258-f26a-53f6-9fa4-4f58d882c2ef}",
-                "icon": "G:\\Github01\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
+                "icon": "G:\\Github01\\PwshProfile\\WindowsTerminal\\Icons\\docker.ico",
                 "intenseTextStyle": "bright",
-                "name": "Pi-Hole"
+                "name": "DockerHost"
             }
         ]
     }
