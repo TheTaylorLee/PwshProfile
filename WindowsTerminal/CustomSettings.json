@@ -78,7 +78,7 @@
                 },
                 "guid": "{8fe52c09-b59a-4f9e-9102-d4fee9797ab4}",
                 "hidden": false,
-                "icon": "G:\\Github\\AdminToolbox\\images\\toolboxShell2.png",
+                "icon": "G:\\Github01\\AdminToolbox\\images\\toolboxShell2.png",
                 "name": "PSPortable",
                 "scrollbarState": "hidden",
                 "startingDirectory": "%USERPROFILE%\\Downloads",
@@ -107,7 +107,7 @@
                 "useAcrylic": false
             },
             {
-                "backgroundImage": "G:\\Github\\PwshProfile\\WindowsTerminal\\Terminal Wallpapers\\Pi.jpg",
+                "backgroundImage": "G:\\Github01\\PwshProfile\\WindowsTerminal\\Terminal Wallpapers\\Pi.jpg",
                 "backgroundImageAlignment": "center",
                 "backgroundImageOpacity": 0.37,
                 "backgroundImageStretchMode": "uniformToFill",
@@ -118,7 +118,7 @@
                     "face": "MesloLGM Nerd Font Mono"
                 },
                 "guid": "{741af258-f26a-53f6-9fa4-4f58d882c2ef}",
-                "icon": "G:\\Github\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
+                "icon": "G:\\Github01\\PwshProfile\\WindowsTerminal\\Icons\\pi.ico",
                 "intenseTextStyle": "bright",
                 "name": "Pi-Hole"
             }
