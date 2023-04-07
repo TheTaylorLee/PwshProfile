@@ -1,12 +1,12 @@
 # Terminal Setup
 - Install Terminal
 - Install [Nerd Font](https://www.nerdfonts.com/) of choice
-- Customize Terminal settings to desire and select nerd font of choice in the terminal
+- Customize Terminal settings to desire and select nerd font of choice in the terminal settings
 - If using Oh-My-Posh be sure to include psportable profiles or know how to set your own prompt.
 
 # Install modules once
 - install-module posh-git
-- install-module oh-my-posh
+- install-module oh-my-posh (Deprecated method. Use the new method. https://ohmyposh.dev/docs/installation/windows)
 
 # Prompt example
 ```powershell
@@ -32,5 +32,5 @@ function prompt {
 
 # Add Custom Theme
 - Use get-poshthemes to locate the themes directory.
-- Copy the custom themes into that directory. (No longer necessary. Themes are official Oh-My-Posh themes now)
+- Copy the custom themes into that directory. (No longer necessary. Themes are now official Oh-My-Posh themes)
 - Pick a different [Theme](https://ohmyposh.dev/docs/themes) if desired and update used prompt
