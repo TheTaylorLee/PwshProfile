@@ -6,7 +6,7 @@
 
 # Install modules once
 - install-module posh-git
-- install-module oh-my-posh (Deprecated method. Use the new method. https://ohmyposh.dev/docs/installation/windows)
+- install [oh-my-posh](https://ohmyposh.dev/docs/installation/windows)
 
 # Prompt example
 ```powershell
@@ -44,6 +44,5 @@ function prompt {
 ```
 
 # Add Custom Theme
-- Use get-poshthemes to locate the themes directory.
-- Copy the custom themes into that directory. (No longer necessary. Themes are now official Oh-My-Posh themes)
-- Pick a different [Theme](https://ohmyposh.dev/docs/themes) if desired and update used prompt
+- Use get-poshthemes to view the themes and theme directory.
+- [Add chosen them to your prompt](https://ohmyposh.dev/docs/installation/prompt)
