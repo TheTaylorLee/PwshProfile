@@ -45,4 +45,4 @@ function prompt {
 
 # Add Custom Theme
 - Use get-poshthemes to view the themes and theme directory.
-- [Add chosen them to your prompt](https://ohmyposh.dev/docs/installation/prompt)
+- [Add chosen theme to your prompt](https://ohmyposh.dev/docs/installation/prompt)
